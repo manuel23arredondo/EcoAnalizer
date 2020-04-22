@@ -114,6 +114,11 @@
     <Compile Include="FormRegistro.Designer.cs">
       <DependentUpon>FormRegistro.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004221636477_inicio.cs" />
+    <Compile Include="Migrations\202004221636477_inicio.designer.cs">
+      <DependentUpon>202004221636477_inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAcerca.resx">
@@ -139,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegistro.resx">
       <DependentUpon>FormRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004221636477_inicio.resx">
+      <DependentUpon>202004221636477_inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
